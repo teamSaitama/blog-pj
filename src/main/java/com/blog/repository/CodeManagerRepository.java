@@ -1,4 +1,4 @@
-package com.blog.Repository;
+package com.blog.repository;
 
 public class CodeManagerRepository {
 }

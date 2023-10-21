@@ -1,4 +1,4 @@
-package com.blog.Model;
+package com.blog.model;
 
 public class Board {
 }

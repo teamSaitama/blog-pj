@@ -1,4 +1,4 @@
-package com.blog.Common;
+package com.blog.common;
 
 public class CommonLogic {
 }
