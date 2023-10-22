@@ -1,0 +1,48 @@
+@import url("style.css");
+
+.title {
+    text-align: center;
+    padding-left: 40px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#username, #password {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px; /* 패딩 조정 */
+    border-radius: 5px; /* 둥근 테두리 스타일 추가 */
+    width: 300px; /* 폼 너비 조정 */
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
