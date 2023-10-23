@@ -41,8 +41,30 @@ input[type="submit"] {
     text-align: center;
     display: block;
     margin: 20px auto 0;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+/* 링크를 양쪽으로 배치하는 부분은 유지. */
+.additional-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-links a {
+    display: block;
+    font-size: 12px;
+    /* 폰트사이즈 */
+    margin: 10px 0;
+    text-decoration: none; 
+    /* 밑줄제거 */
+    color: gray; 
+}
+
+.additional-links a:hover {
+    text-decoration: underline; /* 링크에 마우스를 올릴 때 밑줄 표시 */
+    color: black
 }
