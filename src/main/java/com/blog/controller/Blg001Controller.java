@@ -5,6 +5,7 @@ import com.blog.service.Blg001Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * ログインController
@@ -18,14 +19,20 @@ public class Blg001Controller {
     @Autowired
     private Blg001Service blg001Service;
 
+
+    @GetMapping(value = "/")
+    public String HelloWorld(){
+        return "/blg001.html";
+    }
+
     /**
      * ログイン
      * @param model
      * @param user
      */
-    public void b001(Model model, User user) {
-
-        blg001Service.b001(model, user);
-
+    @GetMapping(value = "/b001")
+    public String b001(Model model, User user) {
+        return blg001Service.b001(model, user);
     }
+
 }

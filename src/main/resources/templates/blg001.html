@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
     
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--css 연결-->
-    <link rel="stylesheet" href="../static/css/blg001.css">
-    <!--js 연결-->
+    <link rel="stylesheet" th:href="@{/css/blg001.css}">
     
     <title>Document</title>
 </head>
@@ -14,12 +13,12 @@
 
     <h2 class="lb_login">ログインしましょう</h2>
     
-    <form id="login_form">
+    <form id="login_form" action="/b001" method="get">
         <label for="username">アカウント</label>
-        <input type="text" id="username" name="username" maxlength="30" required>
+        <input type="text" id="username" name="username" maxlength="30">
 
         <label for="password">パスワード</label>
-        <input type="password" id="password" name="password" maxlength="20" required>
+        <input type="password" id="password" name="password" maxlength="20">
 
         <input type="submit" id="btn_login" value="ログイン">
 
@@ -29,6 +28,7 @@
             <a href="#" id="lnk_find_password">パスワードを忘れた</a>
         </div>
     </form>
-    <script src="../static/js/blg001.js"></script>
+    <!--js 연결-->
+    <script th:src="@{/js/blg001.js}"></script>
 </body>
 </html>
