@@ -1,0 +1,70 @@
+@import url("style.css");
+
+.lb_login {
+    text-align: center;
+    padding-left: 40px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#username, #password {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px; /* 패딩 조정 */
+    border-radius: 5px; /* 둥근 테두리 스타일 추가 */
+    width: 300px; /* 폼 너비 조정 */
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* 링크를 양쪽으로 배치하는 부분은 유지. */
+.additional-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-links a {
+    display: block;
+    font-size: 12px;
+    /* 폰트사이즈 */
+    margin: 10px 0;
+    text-decoration: none; 
+    /* 밑줄제거 */
+    color: gray; 
+}
+
+.additional-links a:hover {
+    text-decoration: underline; /* 링크에 마우스를 올릴 때 밑줄 표시 */
+    color: black
+}

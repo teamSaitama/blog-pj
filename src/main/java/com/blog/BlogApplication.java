@@ -13,11 +13,6 @@ public class BlogApplication {
 		SpringApplication.run(BlogApplication.class, args);
 	}
 
-	@GetMapping(value = "/")
-	public String HelloWorld(){
-		return "Hello world";
-	}
-
 }
 
 
