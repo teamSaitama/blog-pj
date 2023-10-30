@@ -34,7 +34,7 @@ public class Blg001Service {
             model.addAttribute("error", "message");
 
             // ②エラーページへ遷移する。TODO
-            return "";
+            return "/error.html";
         }
 
         // ３．データ設定
