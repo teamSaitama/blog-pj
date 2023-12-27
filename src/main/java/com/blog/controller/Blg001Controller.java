@@ -19,7 +19,6 @@ public class Blg001Controller {
     @Autowired
     private Blg001Service blg001Service;
 
-
     @GetMapping(value = "/")
     public String HelloWorld(){
         return "/blg001.html";

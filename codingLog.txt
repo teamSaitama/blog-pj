@@ -1,0 +1,15 @@
+231121
+
+掲示板一覧画面 해야한다.
+
+view -> controller -> service -> repository
+
+질문list
+* blg001 -> 만들었을때 순서 한번 더 상기시키고 싶다.
+
+
+
+* blg002를 하는데
+  view -> controller -> service -> repository
+  순서로 구성을 하면 되나
+
